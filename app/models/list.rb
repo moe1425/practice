@@ -1,2 +1,3 @@
-class List < ApplicationRecord
-end
+  class List < ApplicationRecord
+    has_one_attached :image
+  end
